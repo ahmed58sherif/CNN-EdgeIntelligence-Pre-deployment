@@ -59,12 +59,8 @@ CNN-EdgeIntelligence/
 ├── 🔬 notebooks/
 │   └── CNN_EdgeIntelligence_Analysis.ipynb  # Interactive Jupyter notebook
 │
-├── 📊 results/
-│   ├── accuracy_comparison.csv              # Quantitative results
-│   ├── per_class_metrics.csv                # Per-digit sensitivity
-│   └── resource_estimation.csv              # FPGA predictions
 │
-├── 📈 figures/
+├── 📈 results & figures/
 │   ├── fig_training_curves.png              # Training dynamics
 │   ├── fig_cm_lenet_mnist.png               # Confusion matrix
 │   ├── fig_acc_pareto.png                   # Pareto frontier ⭐
@@ -75,12 +71,7 @@ CNN-EdgeIntelligence/
 │
 ├── 🎓 paper/
 │   ├── CNN_EdgeIntelligence_ICEENG_2026.pdf  # Published paper
-│   └── supplementary_materials.zip            # Additional data
-│
-└── 📝 docs/
-    ├── IMPLEMENTATION_GUIDE.md      # Step-by-step reproduction
-    ├── CITATION.md                  # How to cite this work
-    └── FUTURE_WORK.md               # Research directions
+
 ```
 
 ---
@@ -97,7 +88,7 @@ CNN-EdgeIntelligence/
 
 ```bash
 # Clone repository
-git clone https://github.com/YourUsername/CNN-EdgeIntelligence.git
+git clone https://github.com/ahmed58sherif/CNN-EdgeIntelligence-Pre-deployment.git
 cd CNN-EdgeIntelligence
 
 # Install dependencies
@@ -259,7 +250,6 @@ Choose configuration based on your constraints:
 5. **Knowledge Distillation**: Extreme compression for embedded systems
 6. **Sparse Convolution**: GPU-accelerated sparse implementations
 
-See [FUTURE_WORK.md](docs/FUTURE_WORK.md) for detailed research directions.
 
 ---
 
@@ -329,9 +319,7 @@ DSP_COUNT = 360       # Zynq-7000 DSPs
 
 ## 📞 Support & Issues
 
-- **Bug Reports**: [GitHub Issues](https://github.com/YourUsername/CNN-EdgeIntelligence/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YourUsername/CNN-EdgeIntelligence/discussions)
-- **Email**: your.email@example.com
+- **Email**: ahmed58sherif@gmai.com
 
 ---
 
@@ -371,5 +359,5 @@ Paper Citations: 📈
 
 ---
 
-**Last Updated**: December 2025
+**Last Updated**: May 202
 **Status**: Active development for ICEENG 2026 publication
