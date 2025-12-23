@@ -57,7 +57,7 @@ CNN-EdgeIntelligence/
 ├── LICENSE                        # MIT License
 │
 ├── 🔬 notebooks/
-│   └── CNN_EdgeIntelligence_Analysis.ipynb  # Interactive Jupyter notebook
+│   └── LeNet_V3.ipynb  # Interactive Jupyter notebook
 │
 │
 ├── 📈 results & figures/
@@ -258,7 +258,7 @@ Choose configuration based on your constraints:
 ### For Researchers
 ```bash
 # Reproduce paper results
-jupyter notebook notebooks/CNN_EdgeIntelligence_Analysis.ipynb
+jupyter notebook notebooks/LeNet_V3.ipynb
 
 # Modify hyperparameters
 # Edit: pruning_ratio = 0.5  (line 45)
@@ -319,7 +319,7 @@ DSP_COUNT = 360       # Zynq-7000 DSPs
 
 ## 📞 Support & Issues
 
-- **Email**: ahmed58sherif@gmai.com
+- **Email**: ahmed58sherif@gmail.com
 
 ---
 
